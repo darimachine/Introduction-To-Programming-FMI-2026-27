@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\intro-prog\\Introduction-To-Programming-FMI-2026-27\\Group 5\\Week 1 \u0026 Week 2\\week1-week2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05FD7679-437F-41F6-9ED2-9886000F4D86}|task4\\task4.vcxproj|C:\\Users\\User\\Desktop\\intro-prog\\Introduction-To-Programming-FMI-2026-27\\Group 5\\Week 1 \u0026 Week 2\\week1-week2\\task4\\task4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05FD7679-437F-41F6-9ED2-9886000F4D86}|task4\\task4.vcxproj|solutionrelative:task4\\task4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDEF199C-35D2-47FB-BF58-F80EF6718E5A}|task3\\task3.vcxproj|C:\\Users\\User\\Desktop\\intro-prog\\Introduction-To-Programming-FMI-2026-27\\Group 5\\Week 1 \u0026 Week 2\\week1-week2\\task3\\task3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FDEF199C-35D2-47FB-BF58-F80EF6718E5A}|task3\\task3.vcxproj|solutionrelative:task3\\task3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70E48AC9-7A2A-4D7C-94A3-A791DB5549E4}|task2\\task2.vcxproj|C:\\Users\\User\\Desktop\\intro-prog\\Introduction-To-Programming-FMI-2026-27\\Group 5\\Week 1 \u0026 Week 2\\week1-week2\\task2\\task2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70E48AC9-7A2A-4D7C-94A3-A791DB5549E4}|task2\\task2.vcxproj|solutionrelative:task2\\task2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8534763-0EB2-42EA-A83A-C56003FD2E9B}|task1\\task1.vcxproj|C:\\Users\\User\\Desktop\\intro-prog\\Introduction-To-Programming-FMI-2026-27\\Group 5\\Week 1 \u0026 Week 2\\week1-week2\\task1\\task1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8534763-0EB2-42EA-A83A-C56003FD2E9B}|task1\\task1.vcxproj|solutionrelative:task1\\task1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "task4.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\intro-prog\\Introduction-To-Programming-FMI-2026-27\\Group 5\\Week 1 \u0026 Week 2\\week1-week2\\task4\\task4.cpp",
+              "RelativeDocumentMoniker": "task4\\task4.cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\intro-prog\\Introduction-To-Programming-FMI-2026-27\\Group 5\\Week 1 \u0026 Week 2\\week1-week2\\task4\\task4.cpp",
+              "RelativeToolTip": "task4\\task4.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-19T07:10:00.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "task3.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\intro-prog\\Introduction-To-Programming-FMI-2026-27\\Group 5\\Week 1 \u0026 Week 2\\week1-week2\\task3\\task3.cpp",
+              "RelativeDocumentMoniker": "task3\\task3.cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\intro-prog\\Introduction-To-Programming-FMI-2026-27\\Group 5\\Week 1 \u0026 Week 2\\week1-week2\\task3\\task3.cpp",
+              "RelativeToolTip": "task3\\task3.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-19T07:02:24.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "task2.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\intro-prog\\Introduction-To-Programming-FMI-2026-27\\Group 5\\Week 1 \u0026 Week 2\\week1-week2\\task2\\task2.cpp",
+              "RelativeDocumentMoniker": "task2\\task2.cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\intro-prog\\Introduction-To-Programming-FMI-2026-27\\Group 5\\Week 1 \u0026 Week 2\\week1-week2\\task2\\task2.cpp",
+              "RelativeToolTip": "task2\\task2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-19T06:56:42.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "task1.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\intro-prog\\Introduction-To-Programming-FMI-2026-27\\Group 5\\Week 1 \u0026 Week 2\\week1-week2\\task1\\task1.cpp",
+              "RelativeDocumentMoniker": "task1\\task1.cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\intro-prog\\Introduction-To-Programming-FMI-2026-27\\Group 5\\Week 1 \u0026 Week 2\\week1-week2\\task1\\task1.cpp",
+              "RelativeToolTip": "task1\\task1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-19T06:52:07.232Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
