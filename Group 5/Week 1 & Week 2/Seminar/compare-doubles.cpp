@@ -1,3 +1,4 @@
+#include <cmath>
 #include <iostream>
 
 const double EPSILON = 0.000001;
