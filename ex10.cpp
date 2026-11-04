@@ -29,7 +29,7 @@ void findNumsFrequencies(int n, int nums[], int numsFrequencies[], int& distinct
 
 void findMostFrequentNum(int n, int nums[])
 {
-    int numsFrequencies[100000] = {};
+    int numsFrequencies[100001] = {};
     int distinctCount = 0;
     findNumsFrequencies(n, nums, numsFrequencies, distinctCount);
 
