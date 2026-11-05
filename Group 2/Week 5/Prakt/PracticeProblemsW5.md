@@ -1,5 +1,5 @@
 # Задачи в час
-### Седмица 4
+### Седмица 5
 <hr>
 
 ##### Задача 0
@@ -13,7 +13,9 @@
 ```C++
 int k = 4;
 int size = 5;
-int arr[] = {1, 2, 3, 4, 5};
+int numbers[] = {1, 2, 3, 4, 5};
+
+std::cout << solution_0(numbers, size, k);
 ```
 Изход:
 ```C++
@@ -29,7 +31,9 @@ int arr[] = {1, 2, 3, 4, 5};
 Вход:
 ```C++
 int size = 5;
-int arr[] = {1, 2, 3, 4, 5};
+int numbers[] = {1, 2, 3, 4, 5};
+
+solution_1(numbers, size);
 ```
 Изход:
 ```C++
@@ -40,7 +44,9 @@ growing
 Вход:
 ```C++
 int size = 4;
-int arr[] = {1, 5, 1, 5};
+int numbers[] = {1, 5, 1, 5};
+
+solution_1(numbers, size);
 ```
 Изход:
 ```C++
@@ -51,7 +57,9 @@ neither
 Вход:
 ```C++
 int size = 4;
-int arr[] = {1, 1, 1, 1};
+int numbers[] = {1, 1, 1, 1};
+
+solution_1(numbers, size);
 ```
 Изход:
 ```C++
@@ -69,7 +77,9 @@ both
 Вход:
 ```C++
 int size = 6;
-int arr[] = {1, 1, 3, 3, 4, 6}; 
+int numbers[] = {1, 1, 3, 3, 4, 6};
+
+solution_2_1(numbers, size);
 ```
 Изход:
 ```C++
@@ -89,7 +99,9 @@ int arr[] = {1, 1, 3, 3, 4, 6};
 Вход:
 ```C++
 int size = 9;
-int arr[] = {8, 5, 2, 1, 7, 3, 4, 6, 9};
+int numbers[] = {8, 5, 2, 1, 7, 3, 4, 6, 9};
+
+solution_2_2(numbers, size);
 ```
 Изход:
 ```C++
@@ -106,7 +118,9 @@ int arr[] = {8, 5, 2, 1, 7, 3, 4, 6, 9};
 Вход:
 ```C++
 int size = 5;
-int arr[] = {1, 2, 3, 2, 1;
+int numbers[] = {1, 2, 3, 2, 1;
+    
+std::cout << solution_3(numbers, size);
 ```
 Изход:
 ```C++
@@ -132,7 +146,9 @@ true
 Вход:
 ```C++
 int size = 6;
-int arr[] = {0, 1, 2, 3, 4, 5};
+int numbers[] = {0, 1, 2, 3, 4, 5};
+
+solution_4(numbers, size);
 ```
 Изход:
 ```C++
@@ -143,7 +159,9 @@ int arr[] = {0, 1, 2, 3, 4, 5};
 Вход:
 ```C++
 int size = 4;
-int arr[] = {0, 9, 9, 9};
+int numbers[] = {0, 9, 9, 9};
+
+solution_4(numbers, size);
 ```
 Изход:
 ```C++
@@ -160,7 +178,9 @@ int arr[] = {0, 9, 9, 9};
 ```C++
 int k = 10;
 int size = 10;
-int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+int numbers[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+std::cout << solution_5_1(numbers, size, k);
 ```
 Изход:
 ```C++
@@ -172,7 +192,9 @@ int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 ```C++
 int k = 10;
 int size = 3;
-int arr[] = {5, 5, 5};
+int numbers[] = {5, 5, 5};
+
+std::cout << solution_5_1(numbers, size, k);
 ```
 Изход:
 ```C++
@@ -184,7 +206,9 @@ int arr[] = {5, 5, 5};
 ```C++
 int k = 10;
 int size = 3;
-int arr[] = {1, 4, 7, 3, 9, 4, 1, 1, 6};
+int numbers[] = {1, 4, 7, 3, 9, 4, 1, 1, 6};
+
+std::cout << solution_5_1(numbers, size, k);
 ```
 Изход:
 ```C++
@@ -201,10 +225,14 @@ int arr[] = {1, 4, 7, 3, 9, 4, 1, 1, 6};
 колко е броя на тези комбинации.
 Изходът трябва да е форматиран възходящо по елемента, за който показваме броя на комбинациите.
 
+*Забележка*: Стойността на елементите на масива не надминава 10 000.
+
 Вход:
 ```C++
 int size = 10;
-int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+int numbers[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+solution_5_2(numbers, size);
 ```
 Изход:
 ```C++
@@ -222,7 +250,9 @@ int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 Вход:
 ```C++
 int size = 9;
-int arr[] = {1, 3, 7, 4, 2, 8, 2, 4, 6};
+int numbers[] = {1, 3, 7, 4, 2, 8, 2, 4, 6};
+
+solution_5_2(numbers, size);
 ```
 Изход:
 ```C++
@@ -237,7 +267,9 @@ int arr[] = {1, 3, 7, 4, 2, 8, 2, 4, 6};
 Вход:
 ```C++
 int size = 11;
-int arr[] = {1, 4, 7, 3, 9, 4, 1, 1, 6, 7, 9};
+int numbers[] = {1, 4, 7, 3, 9, 4, 1, 1, 6, 7, 9};
+
+solution_5_2(numbers, size);
 ```
 Изход:
 ```C++
@@ -256,7 +288,9 @@ int arr[] = {1, 4, 7, 3, 9, 4, 1, 1, 6, 7, 9};
 Вход:
 ```C++
 int size = 5;
-int arr[] = {0, 4, 0, 1, 8};
+int numbers[] = {0, 4, 0, 1, 8};
+
+solution_6(numbers, size);
 ```
 Изход:
 ```C++
@@ -267,7 +301,9 @@ int arr[] = {0, 4, 0, 1, 8};
 Вход:
 ```C++
 int size = 9;
-int arr[] = {4, 0, 5, 0, 0, 0, 3, 0, 1};
+int numbers[] = {4, 0, 5, 0, 0, 0, 3, 0, 1};
+
+solution_6(numbers, size);
 ```
 Изход:
 ```C++
