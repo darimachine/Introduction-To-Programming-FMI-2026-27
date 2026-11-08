@@ -1,17 +1,26 @@
 #include <iostream>
 using namespace std;
 
-void readArray(int arr[], int n)
-{
-    for (int i = 0; i < n; i++)
-    {
-        cin >> arr[i];
-    }
-}
+const int ARRAY_SIZE = 100000;
 
 bool isValidSize(int size)
 {
-    return size >= 1 && size <= 100000;
+    return size >= 1 && size <= ARRAY_SIZE;
+}
+
+bool readArray(int arr[], int& size)
+{
+    cin >> size;
+    if (!isValidSize(size))
+    {
+        return false;
+    }
+
+    for (int i = 0; i < size; i++)
+    {
+        cin >> arr[i];
+    }
+    return true;
 }
 
 int getIndexBinarySearch(int arr[], int size, int num)
@@ -27,7 +36,6 @@ int getIndexBinarySearch(int arr[], int size, int num)
         {
             return middleIndex;
         }
-
         if (num < arr[middleIndex])
         {
             endIndex = middleIndex - 1;
@@ -41,35 +49,30 @@ int getIndexBinarySearch(int arr[], int size, int num)
     return -1;
 }
 
-int main()
+void printBinarySearchResults(int nums[], int numsCount, int numsToSearch[], int numsToSearchCount)
 {
-    int numsCount, numsToSearchCount;
-    int nums[100000], numsToSearch[100000];
-
-    cin >> numsCount;
-
-    if (!isValidSize(numsCount))
-    {
-        cout << "invalid size";
-        return 1;
-    }
-
-    readArray(nums, numsCount);
-
-    cin >> numsToSearchCount;
-
-    if (!isValidSize(numsToSearchCount))
-    {
-        cout << "invalid size";
-        return 1;
-    }
-
-    readArray(numsToSearch, numsToSearchCount);
-
     for (int i = 0; i < numsToSearchCount; i++)
     {
         cout << getIndexBinarySearch(nums, numsCount, numsToSearch[i]) << endl;
     }
+}
+
+int main()
+{
+    int numsCount, numsToSearchCount;
+    int nums[ARRAY_SIZE], numsToSearch[ARRAY_SIZE];
+
+    if (!readArray(nums, numsCount)) {
+        cout << "invalid size"; 
+        return 1;
+    }
+
+    if (!readArray(numsToSearch, numsToSearchCount)) {
+        cout << "invalid size";
+        return 1;
+    }
+    
+    printBinarySearchResults(nums, numsCount, numsToSearch, numsToSearchCount);
 
     return 0;
 }
