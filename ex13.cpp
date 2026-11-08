@@ -1,15 +1,29 @@
 #include <iostream>
 using namespace std;
 
-void readArray(int arr[], int n)
+const int ARRAY_SIZE = 10000;
+
+bool isValidSize(int size)
 {
-    for (int i = 0; i < n; i++)
+    return size >= 2 && size <= ARRAY_SIZE;
+}
+
+bool readArray(int arr[], int& size)
+{
+    cin >> size;
+    if (!isValidSize(size))
+    {
+        return false;
+    }
+
+    for (int i = 0; i < size; i++)
     {
         cin >> arr[i];
     }
+    return true;
 }
 
-void twoSum(int size, int target, int nums[])
+void twoSum(int nums[], int size, int target)
 {
     for (int i = 0; i < size - 1; i++)
     {
@@ -26,19 +40,17 @@ void twoSum(int size, int target, int nums[])
 
 int main()
 {
-    int nums[10000];
-    int size, target;
-    cin >> size;
+    int nums[ARRAY_SIZE];
+    int size;
 
-    if (size < 2 || size > 10000)
-    {
+    if (!readArray(nums, size)) {
         cout << "invalid size";
         return 1;
     }
 
-    readArray(nums, size);
+    int target;
     cin >> target;
 
-    twoSum(size, target, nums);
+    twoSum(nums, size, target);
     return 0;
 }
