@@ -1,24 +1,35 @@
 #include <iostream>
 using namespace std;
 
-void readArray(int arr[], int n)
+const int ARRAY_SIZE = 100000;
+
+bool isValidSize(int size)
 {
-    for (int i = 0; i < n; i++)
+    return size >= 1 && size <= ARRAY_SIZE;
+}
+
+bool readArray(int arr[], int& size)
+{
+    cin >> size;
+    if (!isValidSize(size))
+    {
+        return false;
+    }
+
+    for (int i = 0; i < size; i++)
     {
         cin >> arr[i];
     }
+    return true;
 }
 
-int findMaxConsecutiveOnes(int size, int nums[])
+int findMaxConsecutiveOnes(int nums[], int size)
 {
     int longestSequence = 0;
     int currentSequence = 0;
 
     for (int i = 0; i < size; i++)
     {
-        if (nums[i] != 0 && nums[i] != 1) {
-            return -1;
-        }
         if (nums[i] == 0)
         {
             currentSequence = 0;
@@ -32,28 +43,34 @@ int findMaxConsecutiveOnes(int size, int nums[])
     return longestSequence;
 }
 
+bool containsOnlyZerosAndOnes(int nums[], int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        if (nums[i] != 0 && nums[i] != 1) {
+            return false;
+        }
+    }
+    return true;
+}
+
 int main()
 {
-    int nums[100000];
+    int nums[ARRAY_SIZE];
     int size;
-    cin >> size;
-
-    if (size < 1 || size > 100000)
-    {
+    
+    if (!readArray(nums, size)) {
         cout << "invalid size";
         return 1;
     }
-
-    readArray(nums, size);
     
-    int result = findMaxConsecutiveOnes(size, nums);
-    
-    if (result == -1) 
-    {
-        cout << "invalid input";
-        return 1;
+    if (!containsOnlyZerosAndOnes(nums, size)) {
+        cout << "invalid input: array elements must be 0 or 1";
+        return 2;
     }
 
+    int result = findMaxConsecutiveOnes(nums, size);
     cout << result;
+
     return 0;
 }
