@@ -1,0 +1,24 @@
+#include <iostream>
+
+bool isPrime(int number)
+{
+	if (number <= 1)
+	{
+		return false;
+	}
+	for (int i = 2; i < number; i++)
+	{
+		if (number % i == 0)
+		{
+			return false;
+		}
+	}
+	return true;
+}
+
+using namespace std;
+int main()
+{
+	cout << isPrime(21) << endl;
+	cout << isPrime(7) << endl;
+}
