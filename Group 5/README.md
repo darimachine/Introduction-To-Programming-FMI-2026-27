@@ -12,6 +12,7 @@ _Материали на група 5_
 | **[05](https://github.com/darimachine/Introduction-To-Programming-FMI-2026-27/tree/main/Group%205/Week%205)**                       | Масиви                                                                                                                                                          |
 | **[06](https://github.com/darimachine/Introduction-To-Programming-FMI-2026-27/tree/main/Group%205/Week%206)**                       | Масиви и функции. Подготовка за контролно 1.                                                                                                                    |
 | **[07](https://github.com/darimachine/Introduction-To-Programming-FMI-2026-27/tree/main/Group%205/Week%207)**                       | Многомерни масиви                                                                                                                                               |
+| **[08](https://github.com/darimachine/Introduction-To-Programming-FMI-2026-27/tree/main/Group%205/Week%208)**                       | Памет. Побитови оператори.                                                                                                                                      |
 
 ### Допълнителни материали
 
